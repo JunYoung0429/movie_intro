@@ -1,0 +1,6 @@
+.oversea-wrap{width: 1000px;margin: 0 auto;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.oversea-wrap > h1{line-height: 400px;}
+.oversea-wrap > div{width: 223px;height: 400px;margin: 10px 0px;padding: 10px;cursor: pointer;}
+ul{margin: 0;padding: 0;}
+li{list-style-type: none;padding: 5px;}
+.title {text-align: center;font-size: 20px;}

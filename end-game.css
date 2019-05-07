@@ -1,0 +1,71 @@
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.background{
+    filter: blur(7px);
+    height: 100vh;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 316px;
+    height: 500px;
+}
+.intro {
+    position: absolute;
+    bottom: 120px;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.director{
+    color: yellow;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+i{
+    color: rgb(255, 230, 0);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.action{
+    color: red;
+    padding: 5px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.sf{
+    color: white;
+    background: brown;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.summary{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+}
