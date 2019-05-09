@@ -5,7 +5,7 @@ body{
 .wrap{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(135deg, #718bff 0%, #764ba2 100%);
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }
 a{
     text-decoration: none;
@@ -32,7 +32,7 @@ a{
     height: 500px;
 }
 .card > img{
-    filter: blur(2px);
+    filter: blur(3px);
     transform: scale(1);
     transition: .3s;
 }
@@ -57,7 +57,7 @@ ul{
     color: white;
 }
 .director{
-    color: yellow;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
@@ -67,22 +67,24 @@ i{
     font-size: 25px;
     margin-bottom: 20px;
 }
-.action{
-    color: red;
-    padding: 5px;
-    border-radius: 10px;
-    background: red;
-    color: white;
-    font-size: 20px;
-    font-family: 'Roboto Mono', monospace;
+.kind{
+    margin-bottom: 10px;
 }
-.sf{
+.kind > span{
     color: white;
-    background: brown;
     font-size: 20px;
     border-radius: 10px;
     padding: 5px 20px;
     font-family: 'Roboto Mono', monospace;
+}
+.action{
+    background: red;
+}
+.sf{
+    background: brown;
+}
+.ad{
+    background: #f99185;
 }
 .summary{
     position: absolute;
@@ -92,4 +94,6 @@ i{
     margin-top: 10px;
     padding: 20px;
 }
-
+.summary > li{
+    font-size: 11px;
+}

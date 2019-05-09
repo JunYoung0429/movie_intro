@@ -5,7 +5,7 @@ body{
 .wrap{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(135deg, #718bff 0%, #764ba2 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 a{
     text-decoration: none;
@@ -57,7 +57,7 @@ ul{
     color: white;
 }
 .director{
-    color: yellow;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
@@ -84,12 +84,20 @@ i{
     padding: 5px 20px;
     font-family: 'Roboto Mono', monospace;
 }
+.thriller{
+    color: white;
+    background: #718bff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
 .summary{
     position: absolute;
     bottom: 0;
-    font-size: 16px;
     color: white;
     margin-top: 10px;
     padding: 20px;
 }
-
+.summary > li{
+    font-size: 13px;
+}
